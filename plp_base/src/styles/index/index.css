@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "RobotoLight";
+    src: local("RobotoLight"),
+    url("../../fonts/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: local("RobotoBold"),
+    url("../../fonts/Roboto-Bold.ttf") format("truetype");
+}

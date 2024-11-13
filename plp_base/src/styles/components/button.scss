@@ -1,0 +1,29 @@
+@import '../colors.scss';
+
+.styled-button {
+    border: none;
+}
+
+.button-danger {
+    background-color: #F44336;
+    &:hover {
+        background-color: #D32F2F;
+    }
+}
+
+.button-primary {
+    color: #FFFFFF;
+    background-color: $primary-faded;
+    &:hover {
+        background-color: $primary;
+    }
+}
+
+.button-alt {
+    color: #000000;
+    background-color: $secondary-faded;
+    &:hover {
+        color: #000000;
+        background-color: $secondary;
+    }
+}
