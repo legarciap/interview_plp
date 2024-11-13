@@ -1,0 +1,63 @@
+@import "../colors.scss";
+
+.font-face-roboto-light {
+    font-family: "RobotoLight";
+}
+
+.font-face-roboto-bold {
+    font-family: "RobotoBold";
+}
+
+.title {
+    font-size: xx-large;
+}
+
+.subtitle {
+    font-size: x-large;
+}
+
+.simple-text {
+    font-size: larger;
+}
+
+.text-link {
+    color: $primary;
+    &:hover {
+        color: $alt-primary;
+    }
+}
+
+.cart-link {
+    color: $cart-base;
+    &:hover {
+        color: $cart-alt;
+    }
+}
+
+.background-primary {
+    background-color: $primary;
+}
+
+.background-secondary {
+    background-color: $secondary;
+}
+
+.color-primary {
+    color: $primary;
+}
+
+.color-secondary {
+    color: $secondary;
+}
+
+.text-primary {
+    color: $text-primary;
+}
+
+.text-secondary {
+    color: $text-secondary;
+}
+
+.full-container {
+    height: 100vh;
+}

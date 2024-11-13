@@ -1,0 +1,21 @@
+@import '../colors.scss';
+
+.toast-header-success {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+}
+
+.toast-body-success {
+    background-color: #C8E6C9;
+    color: #000000;
+}
+
+.toast-header-error {
+    background-color: #D32F2F;
+    color: #FFFFFF;
+}
+
+.toast-body-error {
+    background-color: #F44336;
+    color: #FFFFFF;
+}
